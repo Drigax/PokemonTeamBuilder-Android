@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.drigax.teambuilder"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -15,20 +16,22 @@
             android:layout_height="42dp"
             android:layout_alignParentLeft="true" />
 
-        <TextView
+        <com.drigax.teambuilder.view_code_behind.controls.FontTextView
             android:id="@+id/searchListAdapterName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/searchListAdapterIcon"
+            custom:typeface="helveticaNeueCondensed"
             android:text=" " />
 
-        <TextView
+        <com.drigax.teambuilder.view_code_behind.controls.FontTextView
             android:id="@+id/searchListAdapterId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/searchListAdapterName"
             android:layout_toRightOf="@+id/searchListAdapterIcon"
-            android:text=" " />
+            android:text=" "
+            custom:typeface="helveticaNeue"/>
     </RelativeLayout>
 
 

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.drigax.teambuilder"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:clickable="false"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
-    <TextView
+    <com.drigax.teambuilder.view_code_behind.controls.FontTextView
         android:id="@+id/pokemonName"
         android:layout_width="match_parent"
         android:layout_height="20dp"
         android:clickable="false"
         android:gravity="center_horizontal"
         android:text=""
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        custom:typeface="helveticaNeue"/>
 
     <ImageView
         android:id="@+id/pokemonImage"

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<familyset>
+
+    <!-- Some Font. Can be referenced with 'someFont' or 'aspergit' -->
+    <family>
+        <nameset>
+            <name>aspergit</name>
+            <name>someFont</name>
+        </nameset>
+        <fileset>
+            <file>Aspergit.ttf</file>
+            <file>Aspergit Bold.ttf</file>
+            <file>Aspergit Italic.ttf</file>
+            <file>Aspergit Bold Italic.ttf</file>
+        </fileset>
+    </family>
+
+    <!-- Another Font. Can be referenced with 'anotherFont' or 'bodoni' -->
+    <family>
+        <nameset>
+            <name>bodoni</name>
+            <name>anotherFont</name>
+        </nameset>
+        <fileset>
+            <file>BodoniFLF-Roman.ttf</file>
+            <file>BodoniFLF-Bold.ttf</file>
+        </fileset>
+    </family>
+
+</familyset>

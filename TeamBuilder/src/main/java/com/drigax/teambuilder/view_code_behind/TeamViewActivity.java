@@ -1,5 +1,6 @@
 package com.drigax.teambuilder.view_code_behind;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,6 +9,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -51,6 +53,13 @@ public class TeamViewActivity extends ActionBarActivity
         fragmentMapping.put(TEAM_VIEW_FRAGMENT_INDEX, TeamViewFragment.newInstance(TEAM_VIEW_FRAGMENT_INDEX, teamInstance));
         fragmentMapping.put(SEARCH_PANEL_FRAGMENT_INDEX, PokemonSearchPanelFragment.newInstance(pokedexInstance));
         setContentView(R.layout.activity_team_view);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowCustomEnabled(true);
+        actionBar.setDisplayShowTitleEnabled(false);
+        LayoutInflater inflater = (LayoutInflater)this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View v = inflater.inflate(R.layout.action_bar_custom_layout,null);
+        actionBar.setCustomView(v);
 
         teamInstance.addListener(this);
 
