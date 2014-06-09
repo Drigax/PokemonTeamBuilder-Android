@@ -3,7 +3,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/search_panel_element_list_background"
+    android:layout_gravity="center_horizontal">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,92 +19,92 @@
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_normal"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_fire"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_water"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_electric"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_grass"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_flying"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_bug"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_rock"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_ground"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_poison"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_steel"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_ice"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_fighting"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_psychic"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_ghost"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_dark"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_dragon"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
             <com.drigax.teambuilder.view_code_behind.controls.ElementSlotView
                 android:id="@+id/search_panel_element_list_fairy"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
 

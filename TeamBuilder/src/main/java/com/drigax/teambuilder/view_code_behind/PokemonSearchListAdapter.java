@@ -21,9 +21,9 @@ public class PokemonSearchListAdapter extends ArrayAdapter {
 
     private static int MAX_TEAM_SIZE = 6;
 
-    private static int ERROR_ICON = R.drawable.error_icon;
-    private static String DRAWABLE_URI_PREFIX = "com.drigax.teambuilder:drawable/search_icon_";
-    private static String ERROR_ICON_URI = "com.drigax.teambuilder:drawable/error_icon";
+    private static int ERROR_ICON = R.drawable.search_panel_pokemon_error;
+    private static String DRAWABLE_URI_PREFIX = "com.drigax.teambuilder:drawable/search_panel_pokemon_";
+    private static String ERROR_ICON_URI = "com.drigax.teambuilder:drawable/search_panel_pokemon_error";
 
     List<Pokemon> currentPokemonList;
     int resourceId;

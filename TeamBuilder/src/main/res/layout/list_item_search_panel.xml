@@ -1,37 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:custom="http://schemas.android.com/apk/res/com.drigax.teambuilder"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/search_panel_list_item_background"
+        android:layout_marginRight="2dp">
 
         <ImageView
             android:id="@+id/searchListAdapterIcon"
-            android:layout_width="42dp"
-            android:layout_height="42dp"
-            android:layout_alignParentLeft="true" />
-
-        <com.drigax.teambuilder.view_code_behind.controls.FontTextView
-            android:id="@+id/searchListAdapterName"
-            android:layout_width="match_parent"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/search_panel_pokemon_error"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/searchListAdapterIcon"
-            custom:typeface="helveticaNeueCondensed"
-            android:text=" " />
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/searchListAdapterIcon">
 
-        <com.drigax.teambuilder.view_code_behind.controls.FontTextView
-            android:id="@+id/searchListAdapterId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/searchListAdapterName"
-            android:layout_toRightOf="@+id/searchListAdapterIcon"
-            android:text=" "
-            custom:typeface="helveticaNeue"/>
+            <com.drigax.teambuilder.view_code_behind.controls.FontTextView
+                android:id="@+id/searchListAdapterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:typeface="helveticaNeueCondensed"
+                android:textColor="@color/pokemon_app_text_light"
+                android:text="PokemonName" />
+
+            <com.drigax.teambuilder.view_code_behind.controls.FontTextView
+                android:id="@+id/searchListAdapterId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/searchListAdapterName"
+                android:textColor="@color/pokemon_app_text_light"
+                android:text="#ID"
+                custom:typeface="helveticaNeue"/>
+        </LinearLayout>
     </RelativeLayout>
 
 

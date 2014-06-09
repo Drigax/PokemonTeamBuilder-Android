@@ -5,4 +5,18 @@
 
     </style>
 
+    <style name="TeamBuilderActionBarTheme"
+        parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="@android:actionBarStyle">@style/TeamBuilderActionBar</item>
+        <!-- Support Library Compatibility -->
+        <item name="actionBarStyle">@style/TeamBuilderActionBar</item>
+    </style>
+
+    <style name="TeamBuilderActionBar"
+            parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <!-- Support Library Compatibility -->
+        <item name="background">@drawable/actionbar_background</item>
+    </style>
+
 </resources>
