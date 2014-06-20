@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pull_down_shader">
+    <com.drigax.teambuilder.view_code_behind.controls.SearchPanelGenerationItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:generationId="1"
+    />
+    <com.drigax.teambuilder.view_code_behind.controls.SearchPanelGenerationItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:generationId="2"
+        />
+    <com.drigax.teambuilder.view_code_behind.controls.SearchPanelGenerationItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:generationId="3"
+        />
+    <com.drigax.teambuilder.view_code_behind.controls.SearchPanelGenerationItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:generationId="4"
+        />
+    <com.drigax.teambuilder.view_code_behind.controls.SearchPanelGenerationItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:generationId="5"
+        />
+    <com.drigax.teambuilder.view_code_behind.controls.SearchPanelGenerationItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:generationId="6"
+        />
+
+
+</LinearLayout>

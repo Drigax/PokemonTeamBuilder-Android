@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.drigax.teambuilder.view_code_behind.controls.FontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:clickable="false"
+        android:textColor="@color/pokemon_app_text_light"
+        custom:typeface="helveticaNeue"
+        android:text="Error"
+    />
+</LinearLayout>

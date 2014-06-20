@@ -34,8 +34,10 @@
             android:background="@drawable/settings_bg"/>
 
             <com.drigax.teambuilder.view_code_behind.controls.SearchPanelElementListView
+                android:paddingRight="3dp"
+                android:paddingLeft="3dp"
                 android:id="@+id/elementList"
-                android:layout_width="50dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/generationFilterButton"
                 android:layout_above="@+id/bottomFilterPanel"
@@ -44,6 +46,7 @@
 
         <ImageView
             android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
             android:layout_height="48dp"
             android:id="@+id/bottomFilterPanel"
             android:background="@drawable/settings_bg"/>
@@ -58,6 +61,8 @@
         android:layout_centerHorizontal="true"
         android:layout_toLeftOf="@+id/pokemonFilterGroup"
         android:background="@drawable/search_panel_pokemon_list_background"/>
+
+
 
 
 </RelativeLayout>

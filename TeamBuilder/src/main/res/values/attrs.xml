@@ -18,6 +18,10 @@
         <attr name="slotId" format="integer" />
     </declare-styleable>
 
+    <declare-styleable name="SearchPanelGenerationItemView">
+        <attr name="generationId" format="integer" />
+    </declare-styleable>
+
     <declare-styleable name="ProgressWheel">
         <attr name="text" format="string" />
         <attr name="textColor" format="color" />
